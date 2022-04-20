@@ -15,7 +15,7 @@ body {
     align-items: center;
     padding: 20px 0px 20px 100px;
     margin: auto;
-    background-color: rgb(34, 40, 97);
+    background-color: rgb(22, 26, 63);
 }
 
 .logo {
@@ -36,4 +36,45 @@ a {
     text-decoration: none;
     color: white;
     font-family: 'Roboto' arial;
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(22, 26, 63);
+    padding: 60px;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    color: white;
+    text-align: left;
+    margin-right: auto;
+    
+}
+
+
+.hero-image img {
+    height: 200px;
+    width: 300px;
+    
+}
+
+button {
+    display: block;
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 1.5em;
+    border: none;
+    border-style: none;
+    background-color: rgb(221, 63, 57);
+    font-family: 'roboto' arial;
+    color: white;
+    font-weight: 700;
 }
