@@ -1,91 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Montserrat:ital,wght@0,200;0,300;0,400;1,300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
 }
 
+/* Navbar */
 
-.header {
-    background: rgb(26, 32, 70);
+.navbar {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+    margin: auto;
+    background-color: rgb(34, 40, 97);
+}
+
+.logo {
+    margin-right: auto;
+    font-family: 'Roboto' arial;
     color: white;
+    font-weight: 800;
 }
 
-ul {
-    list-style-type: none;
+.link {
     display: flex;
-    justify-content: space-between;
+    margin-left: auto;
+    gap: 15px;
+    padding: 20px;
 }
 
-li {
+a {
     text-decoration: none;
     color: white;
-}
-
-.left {
-    display: flex;
-    align-content: center;
-    padding: 15px 60px;
-    font-weight: 800;
-
-}
-
-.right {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-    padding: 15px;
-}
-
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-main {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    flex-direction: column;
-    flex-basis: 400px;
-   
-    width: 40%;
-    padding: 15px 100px;
-    max-width: fit-content;
-}
-
-h1 {
-    margin-bottom: 0px;
-}
-
-.signup {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    color: white;
-    background-color: rgb(212, 61, 61);
-    border-radius: 1.5em;
-    font-size: 15px;
-    padding: 8px 13px;
-    border: none;
-    transition: background-color ease-in-out 300ms; 
-}
-
-button:hover {
-    background-color: rgba(212, 61, 61, 0.7);
-}
-
-img {
-    height: auto;
-    width: auto;
-}
-
-.image {
-    display: flex;
+    font-family: 'Roboto' arial;
 }
