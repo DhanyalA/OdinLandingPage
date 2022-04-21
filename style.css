@@ -62,7 +62,6 @@ a {
 .hero-image img {
     height: 200px;
     width: 300px;
-    
 }
 
 button {
@@ -79,3 +78,76 @@ button {
 }
 
 /*content*/
+
+.content {
+    align-items: center;
+    margin: 10px;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.content img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* quote */
+
+.quote {
+    background-color: lightgray;
+    display: flex;
+    padding: 100px;
+    align-content: center;
+    justify-content: center;
+}
+
+.quote p {
+    font-family: 'roboto' arial;
+    font-weight: 700;
+    font-size: 24px;
+    flex-wrap: wrap;
+    flex-basis: 500px;
+    justify-content: center;
+    font-style: italic;
+}
+
+span {
+    font-style: normal;
+}
+
+.signup {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: rgb(22, 26, 63);
+    border-radius: 1.5em;
+    padding: 30px;
+
+}
+
+.sign-text {
+    font-family: 'roboto' arial;
+    color: white;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    display: flex;
+    flex: 1;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+}
